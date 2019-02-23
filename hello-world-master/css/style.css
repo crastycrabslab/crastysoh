@@ -32,7 +32,7 @@ html, body{
 }
 .temp-padd {
 	background: #fff;
-	padding: 0px 25px;
+	/*padding: 0px 25px; */
 }
 .top-strip {
 	padding: 16px 16px;

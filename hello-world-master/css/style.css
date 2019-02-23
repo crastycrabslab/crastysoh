@@ -9,32 +9,40 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
  font-family: 'Open Sans', sans-serif;
-   font-size: 100%;
-   background:#000;
-  
+ fo;
+ font-size: 100%;
+ background: url(../images/m-banner.jpg) repeat;
+ background-size: cover;
+ -webkit-background-size:cover;
+ -moz-background-size:cover;
+ -o-background-size:cover;
+ -ms-background-size:cover;
+ position: relative;
 }
 /*--top nav start here--*/
 .mother-grid {
-	padding: 85px 0px;
+	padding: 5% 0px;
 	background: url(../images/m-banner.jpg) repeat;
 	background-size: cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
-	-ms-background-size:cove;
+	-ms-background-size:cover;
 	position: relative;
 }
 .temp-padd {
 	background: #fff;
-	padding: 0px 25px;
+	padding: 0px 25px
+	border-radius: 20px 20px 0 0; 
 }
 .top-strip {
 	padding: 16px 16px;
 	background: #ffd700;
-	position: relative;
+	
 	width: 1141px;
 	top: -40px;
 	left: -2.3%;
+	border-radius: 10px 10px 0px 0; 
 }
 span.menu{
 	display:none;
@@ -112,7 +120,7 @@ span.ph {
 	background-position: -31px -2px;
 }
 .social-icons ul li a span.w-in{
-	background-position: -59px -3px;
+	background-position: -61px -3px;
 }
 .social-icons ul li a span:hover{
 	transform: rotate(360deg);
@@ -1306,7 +1314,7 @@ li.date_desc p{
 /* bootstrap for top-strip start */
 @media(max-width:1440px){
 .top-strip {
-	width: 104.58%;
+	width: 100%;
 	top: 10%;
 	left: -2.3%;
 }
@@ -1314,7 +1322,7 @@ li.date_desc p{
 @media(max-width:1336px){
 	/* //100 */
 .top-strip {
-	width: 104.58%;
+	width: 100%;
 	top: 10%;
 	left: -2.3%;
 }
@@ -1322,7 +1330,7 @@ li.date_desc p{
 @media(max-width:1366px){
 	/* //100 */
 .top-strip {
-	width: 104.598%;
+	width: 100%;
 	top: 10%;
 	left: -2.3%;
 }
@@ -1333,7 +1341,7 @@ li.date_desc p{
 @media(max-width:1280px){
 	/* //110 */
 .top-strip {
-	width: 104.59%;
+	width: 100%;
 	top: 10%;
 	left: -2.25%;
 }
@@ -1341,7 +1349,7 @@ li.date_desc p{
 @media(max-width:1226px){
 	/* //125 */
 .top-strip {
-	width: 105.63%;
+	width: 100%;
 	top: 10%;
 	left: -2.85%;
 }
@@ -1349,7 +1357,7 @@ li.date_desc p{
 @media(max-width:1079px){
 	/* //175 */
 .top-strip {
-	width: 107.45%;
+	width: 100%;
 	top: 10%;
 	left: -3.67%;
 }
@@ -1473,7 +1481,7 @@ span.ph {
 	margin: 0px 9px 0px 0px;
 }
 .top-strip{
-	width: 10%;
+	width: 100%;
 	left: 5%;
 }
 .title-main h1 {
@@ -1658,7 +1666,7 @@ span.line-y {
 	width: 44.2%;
 }
 .top-strip {
-	width: 108.37%;
+	width: 100%;
 	top:10%;
 	left: -4.2%;
 }
@@ -1666,10 +1674,10 @@ span.line-y {
 @media(max-width:640px){
 	/* 250 */
 .top-strip {
-	padding: 8px 8px;	
+	padding: 8px 8px;
 }
 .top-strip {
-	width: 111%;
+	width: 100%;
 	top:10%;
 	left: -5.5%;
 }
@@ -2053,7 +2061,7 @@ span.menu img {
 	left: 18%;
 }
 .temp-padd {
-	padding: 0px 13px;
+	padding: 0px 5.5%;
 }
 .headind-text {
 	width: 100%;
@@ -2080,9 +2088,9 @@ span.menu img {
 	display: none;
 }
 .top-strip {
-	width: 112.2%;
-	left: -6.1%;
-	top: 10%;
+	width: 126.2%;
+        left: -13.1%;
+        top: 10%;
 }
 .nunc-bott-grid {
 	padding: 0px 0px 35px 0px;

@@ -959,6 +959,7 @@ li.date_desc p{
 .footer {
 	background: #000000;
 	padding: 40px 0px;
+	border-radius: 0px 0px 10px 10px;
 }
 .footer-grid a h3 {
 	font-size: 16px;

@@ -21,7 +21,7 @@ html, body{
 }
 /*--top nav start here--*/
 .mother-grid {
-	padding: 85px 0px;
+	padding: 25px 0px;
 	background: url(../images/m-banner.jpg) repeat;
 	background-size: cover;
 	-webkit-background-size:cover;

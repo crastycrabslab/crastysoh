@@ -10,8 +10,14 @@ p {margin: 0;}
 html, body{
  font-family: 'Open Sans', sans-serif;
    font-size: 100%;
-   background:url(../images/m-banner.jpg) repeat;
-  
+   padding: 85px 0px;
+	background: url(../images/m-banner.jpg) repeat;
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	position: relative;
 }
 /*--top nav start here--*/
 .mother-grid {

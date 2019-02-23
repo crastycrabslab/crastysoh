@@ -2088,10 +2088,13 @@ span.menu img {
 	display: none;
 }
 .top-strip {
-	width: 100%;
-        left: -13.1%;
-        top: 10%;
+	width: 112%;
+	left: -6%;
+	top: 10%;
+	position: relative;
 }
+
+.top-strip {}
 .nunc-bott-grid {
 	padding: 0px 0px 35px 0px;
 }
@@ -2291,3 +2294,4 @@ font-size: 19px;
 
 }
 /*--media quries end here--
+

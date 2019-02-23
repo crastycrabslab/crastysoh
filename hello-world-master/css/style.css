@@ -1816,7 +1816,7 @@ span.line-y {
 	float: right;
 }
 .top-strip {
-	width: 113.6%;
+	width: 100%;
 	left: -6.8%;
 	top: 10%;
 }
@@ -2088,7 +2088,7 @@ span.menu img {
 	display: none;
 }
 .top-strip {
-	width: 126.2%;
+	width: 100%;
         left: -13.1%;
         top: 10%;
 }

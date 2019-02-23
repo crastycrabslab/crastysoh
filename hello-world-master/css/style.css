@@ -10,7 +10,7 @@ p {margin: 0;}
 html, body{
  font-family: 'Open Sans', sans-serif;
    font-size: 100%;
-   background:#000;
+   background:url(../images/m-banner.jpg) repeat;
   
 }
 /*--top nav start here--*/

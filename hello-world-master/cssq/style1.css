@@ -158,3 +158,8 @@
 		line-height: 40px;
 	}
 }
+@media screen and (max-width: 480px) {
+	.ei-slider-large{
+		left:3.5%;
+	}
+}

@@ -23,6 +23,7 @@
 	position:relative;
 	overflow: hidden;
 	top: -12%;
+	left:2%;
 }
 .ei-slider-large li{
 	position: absolute;

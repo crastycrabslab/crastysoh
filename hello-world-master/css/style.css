@@ -981,8 +981,8 @@ li.date_desc p{
 .footer-grid p {
 	font-size: 14px;
 	font-weight: 500;
-	color: #fff;
-	line-height: 1.5em;
+	/* old color line color: #fff; 
+	line-height: 1.5em; */
 }
 .footer-grid h4{
 	text-align:left;

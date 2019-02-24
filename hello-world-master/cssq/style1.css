@@ -23,6 +23,7 @@
 	position:relative;
 	overflow: hidden;
 	top: -12%;
+	left:2%;
 }
 .ei-slider-large li{
 	position: absolute;
@@ -73,11 +74,13 @@
 	position: relative;
 	float: left;
 	height: 100%;
+	list-style-type:none;
 	
 }
 /* polosi2 */
 .ei-slider-thumbs li.ei-slider-element{
 	top: 0px;
+	list-style-type:none;
 	left: 0px;
 	position: absolute;
 	height: 100%;
@@ -155,3 +158,23 @@
 		line-height: 40px;
 	}
 }
+@media screen and (max-width: 480px) {
+	.ei-slider-large{
+		left:3.5%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.ei-slider-large{
+		left:3.5%;
+	}
+}
+@media screen and (max-width:640px){
+	.ei-slider-large{
+		left: 3.2%;
+	}
+}
+@media screen and (max-width: 768px){
+	.ei-slider-large{
+		left:3%;
+	}
+} 

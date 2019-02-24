@@ -163,3 +163,18 @@
 		left:3.5%;
 	}
 }
+@media screen and (max-width: 480px) {
+	.ei-slider-large{
+		left:3.5%;
+	}
+}
+@media screen and (max-width:640px){
+	.ei-slider-large{
+		left: 3.2%;
+	}
+}
+@media screen and (max-width: 768px){
+	.ei-slider-large{
+		left:3%;
+	}
+} 

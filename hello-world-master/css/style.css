@@ -10,7 +10,7 @@ p {margin: 0;}
 html, body{
  font-family: 'Open Sans', sans-serif;
  fo;
- font-size: 10%;
+ font-size: 100%;
  background: url(../images/m-banner.jpg) repeat;
  background-size: cover;
  -webkit-background-size:cover;

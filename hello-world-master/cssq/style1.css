@@ -67,7 +67,8 @@
 .ei-slider-thumbs{
 	height: 13px;
 	margin: 0px 80px 10px;
-	left:-6%; /*-4.9%;*/
+	right:4%;
+	/*left:-6%; -4.9%;*/
 	top: -16px;
 	position: relative;
 }

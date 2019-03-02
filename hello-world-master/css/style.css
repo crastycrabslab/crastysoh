@@ -1367,6 +1367,7 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
+	/*left: -100.05%;*/
 }
 .navg ul {
   padding: 0px;
@@ -1381,7 +1382,7 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -2.85%;
+	left: -0.05%;
 }
 .navg ul {
   padding: 0px;
@@ -1396,7 +1397,7 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -3.67%;
+	left: -0.05%;
 }
 .navg ul {
   padding: 0px;
@@ -1861,7 +1862,7 @@ span.line-y {
 }
 .top-strip {
 	width: 100%;
-	left: -6.8%;
+	left: -0.05%;
 	top: 10%;
 }
 .title-main a h1 {

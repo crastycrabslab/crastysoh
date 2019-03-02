@@ -1321,8 +1321,76 @@ li.date_desc p{
  -o-transition:  0.5s all;
 }
 /*--contact end here--*/
-/*--media quries start here--*/
-/* bootstrap for top-strip start */
+/*--media quries start here--*/@media(max-width:1440px){
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+}
+@media(max-width:1336px){
+	/* //100 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+}
+@media(max-width:1366px){
+	/* //100 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+.res {
+	/* left:40%; */
+}
+}
+@media(max-width:1280px){
+	/* //110 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:33%;
+  position: absolute;
+}
+}
+@media(max-width:1226px){
+	/* //125 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.85%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:31%;
+  position: absolute;
+}
+}
+@media(max-width:1079px){
+	/* //175 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -3.67%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:30%;
+  position: absolute;
+}
+}
 @media(max-width:1440px){
 .top-strip {
 	width: 100%;
@@ -1354,7 +1422,13 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -2.25%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:33%;
+  position: absolute;
 }
 }
 @media(max-width:1226px){
@@ -1364,6 +1438,13 @@ li.date_desc p{
 	top: 10%;
 	left: -2.85%;
 }
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:31%;
+  position: absolute;
+}
 }
 @media(max-width:1079px){
 	/* //175 */
@@ -1372,16 +1453,14 @@ li.date_desc p{
 	top: 10%;
 	left: -3.67%;
 }
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:30%;
+  position: absolute;
 }
-/* @media (max-width: 675px)){  */
-/* возможно вернуть */
-/* .top-strip { */
-	/* width: 100.45%; */
-	/* top: 10000px; */
-	/* left: -3.67%; */
-/* } */
-/* } */
-
+}
 /* bootstrap for top-strip end */
 @media(max-width:1024px){
 .abouttop-right p {

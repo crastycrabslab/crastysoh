@@ -168,26 +168,23 @@ span.ph {
 /*--header start here--*/
 .header {
 	border: 1px solid #ccc;
-	
 }
 .navg {
 	padding: 0px 189px;	
 	float: center;
 	
 }
-.search {
-	float: right;
-}
 .navg ul {
   padding: 0px;
   list-style: none;
   /*left: 440px;*/
-  left:37%;
+  left:35%;
   position: absolute;
 }
 .navg ul li {
 	display: inline-block;
 	padding: 7px 15px 7px 15px;
+	/*right: -20%;*/
     /* padding: 7px 15px 7px 15px; old ver */
 	border-left: 1px solid #ccc;
 }
@@ -206,51 +203,8 @@ span.ph {
 	padding: 7px 15px 7px 15px;
 }
 
-
 /*--header end here--*/
-/*--banner start here--*/
-.banner {
-	background: url(../images/banner.jpg);
-	min-height: 450px;
-	text-align:center;
-	
-	padding-top:80px;
-}
-.banner h3 {
-	font-size: 25px;
-	font-weight: 500;
-	color: #000000;
-	margin: 30px 0px 7px 0px;
-}
-.banner h2 {
-	font-size: 40px;
-	font-weight: 600;
-	color: #000000;
-}
-.banner-button {
-	padding: 26px 0px 0px 0px;
-}
-.banner-button a {
-	font-size: 20px;
-	font-weight: 500;
-	color: #e45c5f;
-	padding: 10px 16px;
-	background: #fff;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	 -moz-border-radius: 5px;
-	 -o-border-radius: 5px;
-}
-.banner-button a:hover{
-	text-decoration:none;
-	color:#fff;
-	background:#e45c5f;
-		transition: 0.5s all;
- -webkit-transition: 0.5s all;
- -moz-transition:  0.5s all;
- -o-transition:  0.5s all;
-}
-/*--banner end here--*/
+
 /*--nunc start here--*/
 .nuncdig {
 	padding: 120px 0px 0px 0px;
@@ -1300,76 +1254,7 @@ li.date_desc p{
  -o-transition:  0.5s all;
 }
 /*--contact end here--*/
-/*--media quries start here--*/@media(max-width:1440px){
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.3%;
-}
-}
-@media(max-width:1336px){
-	/* //100 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.3%;
-}
-}
-@media(max-width:1366px){
-	/* //100 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.3%;
-}
-.res {
-	/* left:40%; */
-}
-}
-@media(max-width:1280px){
-	/* //110 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-}
-.navg ul {
-  padding: 0px;
-  list-style: none;
-  /*left: 440px;*/
-  left:33%;
-  position: absolute;
-}
-}
-@media(max-width:1226px){
-	/* //125 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.85%;
-}
-.navg ul {
-  padding: 0px;
-  list-style: none;
-  /*left: 440px;*/
-  left:31%;
-  position: absolute;
-}
-}
-@media(max-width:1079px){
-	/* //175 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -3.67%;
-}
-.navg ul {
-  padding: 0px;
-  list-style: none;
-  /*left: 440px;*/
-  left:30%;
-  position: absolute;
-}
-}
+/*--media quries start here--*//* bootstrap for top-strip start */
 @media(max-width:1440px){
 .top-strip {
 	width: 100%;
@@ -1440,6 +1325,96 @@ li.date_desc p{
   position: absolute;
 }
 }
+/* @media (max-width: 675px)){  */
+/* возможно вернуть */
+/* .top-strip { */
+	/* width: 100.45%; */
+	/* top: 10000px; */
+	/* left: -3.67%; */
+/* } */
+/* } */
+
+/* bootstrap for top-strip end */
+/* bootstrap for top-strip start */
+@media(max-width:1440px){
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+}
+@media(max-width:1336px){
+	/* //100 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+}
+@media(max-width:1366px){
+	/* //100 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.3%;
+}
+.res {
+	/* left:40%; */
+}
+}
+@media(max-width:1280px){
+	/* //110 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:33%;
+  position: absolute;
+}
+}
+@media(max-width:1226px){
+	/* //125 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -2.85%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:31%;
+  position: absolute;
+}
+}
+@media(max-width:1079px){
+	/* //175 */
+.top-strip {
+	width: 100%;
+	top: 10%;
+	left: -3.67%;
+}
+.navg ul {
+  padding: 0px;
+  list-style: none;
+  /*left: 440px;*/
+  left:30%;
+  position: absolute;
+}
+}
+/* @media (max-width: 675px)){  */
+/* возможно вернуть */
+/* .top-strip { */
+	/* width: 100.45%; */
+	/* top: 10000px; */
+	/* left: -3.67%; */
+/* } */
+/* } */
+
 /* bootstrap for top-strip end */
 @media(max-width:1024px){
 .abouttop-right p {

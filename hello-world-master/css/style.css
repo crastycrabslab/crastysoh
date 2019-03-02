@@ -41,8 +41,8 @@ html, body{
 	background: #000000; 
 	position: relative; 
 	width: 1141px; 
-	top: -40px; 
-	left: -2.3%;
+	top: 10%; 
+	left: -0.05%;
 	border-radius: 20px 20px 0px 0;
 }
 /*.top-strip {
@@ -1267,25 +1267,16 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -2.3%;
+	left: -50.3%;
 }
 }
-@media(max-width:1366px){
-	/* //100 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.3%;
-}
-.res {
-	/* left:40%; */
-}
-}
+
 @media(max-width:1280px){
 	/* //110 */
 .top-strip {
 	width: 100%;
 	top: 10%;
+	left: 50%;
 }
 .navg ul {
   padding: 0px;
@@ -1315,7 +1306,7 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -3.67%;
+	left: -13.67%;
 }
 .navg ul {
   padding: 0px;
@@ -1348,26 +1339,16 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: -2.3%;
+	left: -0.06%;
 }
 }
-@media(max-width:1366px){
-	/* //100 */
-.top-strip {
-	width: 100%;
-	top: 10%;
-	left: -2.3%;
-}
-.res {
-	/* left:40%; */
-}
-}
+
 @media(max-width:1280px){
 	/* //110 */
 .top-strip {
 	width: 100%;
 	top: 10%;
-	/*left: -100.05%;*/
+	left: -5.05%;
 }
 .navg ul {
   padding: 0px;
@@ -1713,7 +1694,7 @@ span.line-y {
 .top-strip {
 	width: 100%;
 	top:10%;
-	left: -4.2%;
+	left: -5.05%;
 }
 }
 @media(max-width:640px){
@@ -1724,7 +1705,7 @@ span.line-y {
 .top-strip {
 	width: 100%;
 	top:10%;
-	left: -5.5%;
+	left: -0.05%;
 }
 .title-main {
 	padding: 26px 0px 25px 0px;

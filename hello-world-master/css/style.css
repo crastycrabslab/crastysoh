@@ -1276,7 +1276,7 @@ li.date_desc p{
 .top-strip {
 	width: 100%;
 	top: 10%;
-	left: 50%;
+	/*left: 50%; */
 }
 .navg ul {
   padding: 0px;

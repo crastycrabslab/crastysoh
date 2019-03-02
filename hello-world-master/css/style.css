@@ -35,7 +35,16 @@ html, body{
 	/*padding: 0px 25px; */
 	border-radius: 10px 10px 0px 0;
 }
-.top-strip {
+
+.top-strip { 
+	padding: 11px 16px 0px; 
+	background: #000000; 
+	position: relative; 
+	width: 1141px; 
+	top: -40px; 
+	left: -2.3%;
+	border-radius: 20px 20px 0px 0;
+/*.top-strip {
 	padding: 16px 16px;
 	background: #ffd700;
 	
@@ -43,7 +52,7 @@ html, body{
 	top: -40px;
 	left: -2.3%;
 	border-radius: 10px 10px 0px 0; 
-}
+}*/
 span.menu{
 	display:none;
 }

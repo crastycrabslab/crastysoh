@@ -181,6 +181,9 @@ span.ph {
 .navg ul {
   padding: 0px;
   list-style: none;
+  /*left: 440px;*/
+  left:35%;
+  position: absolute;
 }
 .navg ul li {
 	display: inline-block;

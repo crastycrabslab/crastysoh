@@ -33,7 +33,7 @@ html, body{
 .temp-padd {
 	background: #fff;
 	/*padding: 0px 25px; */
-	border-radius: 20px 20px 0px 0;
+	border-radius: 20px 20px 0px 0px;
 }
 
 .top-strip { 
@@ -179,6 +179,7 @@ span.ph {
   list-style: none;
   /*left: 440px;*/
   left:33%;
+  margin: 10px 10px 10px 10px;
   position: absolute;
 }
 .navg ul li {
@@ -901,8 +902,9 @@ li.date_desc p{
 /*--footer start here--*/
 .footer {
 	background: #ffd700;
-	padding: 40px 0px;
-	border-radius: 0px 0px 10px 10px;
+    /*padding: 40px 0px;*/
+    border: 1px solid black;
+
 }
 .footer-grid a h3 {
 	font-size: 16px;
@@ -910,6 +912,7 @@ li.date_desc p{
 	color: #000;
 	margin: 10px 0px;
 	text-align:left;
+	border-radius: 0px 0px 20px 20px;
 }
 .footer-grid a:hover {
 	text-decoration: none;
@@ -938,17 +941,22 @@ li.date_desc p{
 	width: 25%;
 }
 .footer-top {
-	padding: 0px 0px 40px 0px;
+	/*padding: 0px 0px 40px 0px;*/
 	border-bottom: 1px solid #D3D3D3;
+	border-radius: 0px 0px 20px 20px;
 }
 .footer-bottom {
 	padding: 30px 0px 0px 0px;
 	text-align: center;
+	border-radius: 0px 0px 20px 20px;
 }
 .footer-bottom p {
 	font-size: 15px;
 	font-weight: 400;
 	color: #fff;
+}
+.image-footer {
+	border-radius: 0px 0px 20px 20px;
 }
 .footer-bottom a {
 	font-size: 15px;
@@ -2146,15 +2154,22 @@ span.menu img {
 	width: 51%;
 	margin: 0 auto;
 }
-.footer {
+/*.footer {
 	padding: 15px 0px;
+	border-radius: 0px 0px 20px 20px;
 }
+.footer-image{ 
+	padding: 0px 0px 15px 0px;
+	border-radius: 0px 0px 50px 50px;
+ }
 .footer-top {
 	padding: 0px 0px 15px 0px;
+	border-radius: 0px 0px 50px 50px;
 }
 .footer-bottom {
 	padding: 17px 0px 0px 0px;
-}
+	border-radius: 0px 0px 20px 20px;
+}*/
 li.sml-img {
 	width: 95px;
 }

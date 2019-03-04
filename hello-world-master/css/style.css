@@ -904,7 +904,13 @@ li.date_desc p{
 	background: #ffd700;
     /*padding: 40px 0px;*/
     border: 1px solid black;
-
+    border-radius: 0px 0px 30px 30px;
+    
+}
+.footer img {
+	position: relative;
+	top:1.5px;
+	border-radius: 0px 0px 20px 20px;
 }
 .footer-grid a h3 {
 	font-size: 16px;
@@ -2336,5 +2342,3 @@ font-size: 19px;
 }
 /*--media quries end here--
 
-
-	

@@ -902,7 +902,7 @@ li.date_desc p{
 /*--footer start here--*/
 .footer {
 	background: #000000;
-    /*padding: 40px 0px;*/
+    padding: 0px 12px;
     border: 1px solid black;
     border-radius: 0px 0px 30px 30px;
     

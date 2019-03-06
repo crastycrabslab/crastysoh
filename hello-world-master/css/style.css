@@ -119,8 +119,8 @@ span.ph {
 }
 .social-icons ul li a span {
 	background: url(../images/img-sprite.png)no-repeat ;
-	width: 35px;
-	height: 35px;
+	width: 39px;
+	height: 39px;
 	display: inline-block;
 }
 .social-icons ul li a span.w-f{
@@ -130,7 +130,7 @@ span.ph {
 	background-position: -35px -1px;
 }
 .social-icons ul li a span.w-in{
-	background-position: -75px -2px;
+	background-position: -75px -2.5px;
 }
 .social-icons ul li a span:hover{
 	transform: rotate(360deg);

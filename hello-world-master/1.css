@@ -65,3 +65,81 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+/*BootsTrap*/
+@media (max-width: 1000px){
+    .b-comments-list__item{
+        width: 700px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 13px;
+    }
+}
+@media (max-width: 720px){
+    .b-comments-list__item{
+        width: 600px;
+    }
+    body {
+        font-size: 11px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 11px;
+    }
+}
+@media (max-width: 640px){
+    .b-comments-list__item{
+        width: 500px;
+    }
+    body {
+        font-size: 9px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 9px;
+    }
+}
+@media (max-width: 540px){
+    .b-comments-list__item{
+        width: 400px;
+    }
+    body {
+        font-size: 8px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 8px;
+    }
+}
+@media (max-width: 480px){
+    .b-comments-list__item{
+        width: 350px;
+    }
+    body {
+        font-size: 7px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 7px;
+    }
+}
+@media (max-width: 360px){
+    .b-comments-list__item{
+        width: 17500px;
+    }
+    body {
+        font-size: 4px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 4px;
+    }
+}
+@media (max-width: 320px){
+    .b-comments-list__item{
+        width: 175px;
+    }
+    body {
+        font-size: 4px;
+    }
+    .b-comment .b-comment__message {
+        font-size: 4px;
+    }
+}

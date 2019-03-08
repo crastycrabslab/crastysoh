@@ -1,2 +1,3 @@
 # crastysoh
-<link rel="shortcut icon" href="http://htmlbook.ru/favicon.ico">
+http://github.com - automatic!
+[GitHub](http://github.com)

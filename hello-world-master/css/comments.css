@@ -58,6 +58,7 @@ body {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
     margin: 0;
+    background: #F7F7F7;
 }
 html {
     font-family: sans-serif;

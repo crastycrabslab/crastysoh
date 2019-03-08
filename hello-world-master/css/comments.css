@@ -65,6 +65,7 @@ html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    background:#f7f7f7;
 }
 /*BootsTrap*/
 @media (max-width: 1000px){

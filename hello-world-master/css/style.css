@@ -2394,8 +2394,3 @@ font-size: 19px;
 		margin: 0px 0px 0px 0px;
 	}
 }
-@media (max-width: 10800px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 35px;
-	}
-}

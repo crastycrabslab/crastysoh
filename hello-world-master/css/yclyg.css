@@ -1,0 +1,33 @@
+.col-md {
+	position: relative;
+	background-color: yellow;
+	height: 1000px;
+	width: auto;
+	display: flex;
+    justify-content: space-around;
+
+}
+.col-md img {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+}
+.yclyga{
+	width: 220px;
+	background-color: grey;
+	padding: 10 10 10 10;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.headind-text h3 {
+	text-align: center;
+	color: red;
+}
+.yclyga h4 {
+	text-align: center;
+	color: red;
+}
+.col-md p {
+	text-align: center;
+}

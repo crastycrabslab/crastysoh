@@ -33,7 +33,7 @@ html, body{
 .temp-padd {
 	background: #fff;
 	/*padding: 0px 25px; */
-	border-radius: 20px 20px 30px 30px;
+	border-radius: 20px 20px 0px 0px;
 }
 
 .top-strip { 
@@ -2353,81 +2353,9 @@ font-size: 19px;
 }
 }
 /*/*--media quries end here--??*/
-@media (max-width: 1920px){
-	.col-md-4 img{
-		margin: 0px 0px 0px 25px;
-	}
-}
-@media (max-width: 1440px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 30px
-	}
-	
-}
-@media (max-width: 1280px){
-	.col-md-4 img{
-		margin: 0px 0px 0px 0px;
-	}
-}
-@media (max-width: 1080px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 10px;
-	}
-}
-@media (max-width: 480px){
-	.col-md-4 img {
-		margin: 0px 0px 0px -0px;
-	}
-	.col-md-4 h3{
-		margin: 50px;
-	}
-}
-/*@media (max-width: 320px){
-	.col-md-4 img {
-		;
-	}
-}
-@media (max-width: 480px){
-	.col-md-4 img {
-		margin: 0px 0px 0px -5px;
-	}
-}
-@media (max-width: 1440px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 70px;
-	}
-
-}
-@media (max-width: 1350px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 35px;
-	}
-	
-}
-@media (max-width: 1220px){
-		.headind-text h3 {
-		font-size: 23px;
-		font-weight: 700;
-		color: #e45c5f;
-		margin: 15px 10px 8px 0px;
-		text-align: center;
-}
-}
-@media (max-width: 1920px){
-	.col-md-4 img {
-		margin: 50px;
-	}
-}
-@media (max-width: 880px){
-	.col-md-4 img {
-		margin: 0px 0px 0px 0px;
-	}
-}
-@media (max-width: 1600px){
-	.col-md-4 img {
-		margin: 50px;
-	}
-}*/
 .col-md-51 p{
 	text-align: center;
 }
+
+
+

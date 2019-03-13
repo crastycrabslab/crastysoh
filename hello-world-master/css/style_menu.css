@@ -1,18 +1,16 @@
 body {margin: 0;padding: 0;font-family: sans-serif;}
 
-.sex {
-/*  width: 700px;
-  height: 700px;*/
-  left: 50%;
-  position: absolute;
+.sex { 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin: 0 auto; 
+  position: relative;
 }
-.sex ul {
-  /*position: absolute;
-  top: 50%;
-  left: 50%;*/
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
+.sex ul { 
+/* transform: translate(-50%, -50%); */ 
+  margin: 0; 
+  padding: 0; 
   display: flex;
 }
 .sex ul li {

@@ -101,12 +101,19 @@ body, html {
 .container #nav_slide #dot4:hover {
   background: #4CAF50;
 }
+.container #nav_slide #dot5:hover {
+  background: #4CAF50;
+}
+.container #nav_slide #dot6:hover {
+  background: #4CAF50;
+}
 
 #i1:checked ~ #one,
 #i2:checked ~ #two,
 #i3:checked ~ #three,
 #i4:checked ~ #four,
-#i5:checked ~ #five {
+#i5:checked ~ #five,
+#i6:checked ~ #six {
   z-index: 9;
   animation: scroll 1s ease-in-out;
 }
@@ -126,10 +133,14 @@ body, html {
 #i4:checked ~ #nav_slide #dot4 {
   background: #4CAF50;
 }
-
 #i5:checked ~ #nav_slide #dot5 {
-  background: #4CAF50;
+  background: #b151ec;
 }
+#i6:checked ~ #nav_slide #dot6 {
+  background: #ff8100;
+}
+
+
 
 @keyframes scroll {
   0% {
@@ -163,3 +174,4 @@ body, html {
     height: 12px;
   }
 }
+
